@@ -1,0 +1,36 @@
+{
+    "__comment01__": "PROVIDE YOUR BOT API KEY FROM https://t.me/BotFather",
+    "api_key": "",
+
+    "__comment02__": "DIRECTORY WITH LOG FILES",
+    "logs_dir": "logs",
+
+    "__comment03__": "PATH TO THE BLOCKPOST (STARTUP) MESSAGE",
+    "form_file": "form.txt",
+
+    "__comment04__": "PATH TO THE USERS DATABASE",
+    "users_database": "users.json",
+
+    "__comment05__": "MAXIMUM ALLOWED MESSAGES FROM 1 USER (CAN BE RESET FROM ADMIN). OTHER MESSAGES WILL BE IGNORED",
+    "user_max_messages": 3,
+
+    "__comment06__": "CONFIRMATION MESSAGE (new line with \\n)",
+    "confirmation_message": "Your request has been accepted!\\nPlease wait for the approval",
+
+    "__comment07__": "MESSAGE (new line with \\n) TO USER IF THEY WAS BANNED. LEAVE IT EMPTY TO IGNORE USER MESSAGES",
+    "banned_message": "You have been banned",
+
+    "__comment08__": "ADMIN /start MESSAGE (new line with \\n)",
+    "admin_message": "Administrator commands:\n\\n/users - List of users\\n/resetmessages <id> - Clear message limit from user\\n/ban <id> - Ban user\\n/unban <id> - Unban user\\n/restart - Restart the bot (in case of hang-up / error)",
+
+    "__comment09__": "/restart MESSAGES (new line with \\n)",
+    "restart_message_start": "Restarting...",
+    "restart_message_done": "The restart is completed!",
+
+    "__comment10__": "/ban <id> / /unban <id> CONFIRMATION MESSAGE (new line with \\n)",
+    "ban_confirmation_message": "User banned",
+    "unban_confirmation_message": "User unbanned",
+
+    "__comment11__": "/resetmessages <id> CONFIRMATION MESSAGE (new line with \\n)",
+    "resetmessages_confirmation_message": "User's message counter resset"
+}
